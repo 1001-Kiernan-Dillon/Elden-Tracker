@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Elden Tracker</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QWidget" name="widget_2" native="true">
+      <widget class="QPushButton" name="searchButton">
+       <property name="geometry">
+        <rect>
+         <x>690</x>
+         <y>10</y>
+         <width>75</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Find</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="search">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>10</y>
+         <width>133</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Search</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="widget_3" native="true">
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QPushButton" name="weapon">
+         <property name="text">
+          <string>Weapons</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="item">
+         <property name="text">
+          <string>Items</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="talisman">
+         <property name="text">
+          <string>Talismans</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="boss">
+         <property name="text">
+          <string>Bosses</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
