@@ -1,7 +1,7 @@
 Elden-Tracker 
 
 Author: Dillon Kiernan
-CS 457 FInal Project
+CS 457 Final Project
 
 Elden Tracker allows players to make a user to keep track of the weapons, talismans, and items
 they collect as well as they bosses they have defeated. New users can register by providing a
